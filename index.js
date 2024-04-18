@@ -62,6 +62,7 @@ async function searchPressed(formData) {
           singleData.title
       );
       titleNewP.appendChild(titleNewPText);
+      divindex.appendChild(titleNewP);
 
       let artistNewP = document.createElement("p");
       let artistNewPText = document.createTextNode(
