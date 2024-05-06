@@ -1,12 +1,3 @@
-//const result = fetch(url)
-//  .then((data) => {
-//    return data;
-//  })
-//  .catch((error) => {
-//    console.error("fetch X :", error);
-//  });
-//console.log(result);
-
 async function searchPressed(formData) {
   //  console.log("form data: " + formData[0].value);
   const datas = await fetch(
